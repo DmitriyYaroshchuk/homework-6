@@ -1,8 +1,8 @@
 // //_____Task-1_____//
 
-const arrayOne = ['a','b','c','d'];
+const arrayOne = ['a','b','c','d','a','b','c','d'];
 function functionOne () {
-   arrayOne.splice(0, 4,'e', 'f', 'g', 'h');
+   arrayOne.splice(0, arrayOne.length,'e', 'f', 'g', 'h');
    return arrayOne;
 }
 console.log(functionOne(arrayOne));
