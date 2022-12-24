@@ -2,7 +2,7 @@
 
 const arrayDuplicate = ['a','b','c','d','a','b','c','j','g'];
 function funcDeleteDuplicate (array) {
-   return array.filter((element, elementTwo) => array.indexOf(element) === elementTwo);
+   return array.filter((element, index) => array.indexOf(element) === index);
 }
 console.log(funcDeleteDuplicate(arrayDuplicate));
 
