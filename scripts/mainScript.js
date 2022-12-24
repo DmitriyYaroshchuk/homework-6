@@ -1,11 +1,11 @@
 // //_____Task-1_____//
 
-const arrayOne = ['a','b','c','d','a','b','c','d'];
-function functionOne () {
-   arrayOne.splice(0, arrayOne.length,'e', 'f', 'g', 'h');
-   return arrayOne;
+const arrayDuplicate = ['a','b','c','d','a','b','c','j','g'];
+function funcDeleteDuplicate (array) {
+   return array.filter((element, elementTwo) => array.indexOf(element) === elementTwo);
 }
-console.log(functionOne(arrayOne));
+console.log(funcDeleteDuplicate(arrayDuplicate));
+
 
 
 
